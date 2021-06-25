@@ -1,0 +1,2 @@
+:: kafka-topics.bat --create --zookeeper localhost:2181 --topic invoice --partitions 5 --replication-factor 3 --config segment.bytes=1000000
+kafka-topics.bat --create --zookeeper localhost:2181 --topic hello-producer-2 --partitions 5 --replication-factor 3 --config min.insync.replicas=2
